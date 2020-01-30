@@ -1,0 +1,13 @@
+{
+    "baseUrl": "http://blazedemo.com/",
+    "defaultCommandTimeout": 60000,
+    "execTimeout": 60000,
+    "pageLoadTimeout": 60000,
+    "integrationFolder": "cypress/features",
+    "video": false,
+    "reporter": "junit",
+    "reporterOptions": {
+    "mochaFile": "results/my-test-output-[hash].xml",
+    "toConsole": true
+  }
+}

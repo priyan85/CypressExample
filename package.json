@@ -1,0 +1,16 @@
+{
+  "name": "CypressTemplate",
+  "version": "1.0.0",
+  "description": "Template for cypress tests",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "runh": "yarn cypress run --browser=chrome --headless",
+    "open": "yarn cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^3.8.3",
+    "cypress-cucumber-preprocessor": "^2.0.1",
+    "prettier": "^1.19.1"
+  }
+}
